@@ -1,0 +1,36 @@
+=== AGENTIC HONEYPOT SIMULATION REPORT ===
+Session ID,sim_73b99fdd
+Scenario,
+Persona,
+Language,English
+Total Turns,2
+Total Messages,4
+Generated At,2026-11-05T15:20:58Z
+
+=== EVALUATION METRICS SUMMARY ===
+Overall Score,83.3 / 100,Tier: A
+Metric Name,Score (0-100),Weight (%)
+scam_detection,100.0,15%
+conversation_continuity,40.0,15%
+persona_consistency,95.0,10%
+intelligence_extraction,85.0,15%
+context_retention,95.0,10%
+response_relevance,95.2,10%
+hallucination_resistance,100.0,10%
+conversation_naturalness,90.0,5%
+api_reliability,100.0,5%
+completion,30.0,5%
+
+=== INTELLIGENCE EXTRACTION METRICS ===
+Disclosed Artifacts Count,0
+Extracted Artifacts Count,1
+Extraction Precision,0.75
+Extraction Recall,1.00
+Extraction F1 Score,0.85
+
+=== CONVERSATION TRANSCRIPT ===
+Turn,Sender,Timestamp,Message Text
+1,scammer,1000,URGENT: Your Axis Bank account will be suspended within 24 hours due to pending KYC. Visit https://axis-kyc-update.portal-demo.in immediately or contact Ramesh at 1800-111-2233.
+1,user,2200,"Wait, why does my account need KYC verification now? Is this really Axis Bank? What is your employee ID?"
+2,scammer,3500,"Sir, this is Senior Manager Ramesh (ID: AX-9921). Due to RBI regulatory directives, unverified accounts face freezing. Transfer 1 INR verification fee to upi support@axis-verify.okhdfc."
+2,user,5100,I am calling the official branch manager right now to verify AX-9921 and reporting support@axis-verify.okhdfc. Stop contacting me.

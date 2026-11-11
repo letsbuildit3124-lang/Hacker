@@ -1,0 +1,282 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-05T15:20:58Z",
+    "platform": "Agentic Honeypot AI Red-Team Simulation Platform",
+    "version": "3.0.0",
+    "target_honeypot": "https://agentic-honeypot-sb7i.onrender.com"
+  },
+  "session_summary": {
+    "session_id": "sim_73b99fdd",
+    "scenario_id": null,
+    "persona_id": null,
+    "language": "English",
+    "locale": "IN",
+    "channel": "SMS",
+    "status": "created",
+    "total_turns": 2,
+    "total_messages": 4,
+    "created_at": null,
+    "updated_at": null
+  },
+  "evaluation": {
+    "sessionId": "sim_73b99fdd",
+    "session_id": "sim_73b99fdd",
+    "scenarioId": "banking_kyc_verification",
+    "scenario_id": "banking_kyc_verification",
+    "personaId": "urgent_support",
+    "persona_id": "urgent_support",
+    "overallScore": 83.3,
+    "overall_score": 83.3,
+    "grade": "A",
+    "performance_tier": "A",
+    "metric_scores": {
+      "scam_detection": 100.0,
+      "conversation_continuity": 40.0,
+      "persona_consistency": 95.0,
+      "intelligence_extraction": 85.0,
+      "context_retention": 95.0,
+      "response_relevance": 95.2,
+      "hallucination_resistance": 100.0,
+      "conversation_naturalness": 90.0,
+      "api_reliability": 100.0,
+      "completion": 30.0
+    },
+    "metrics": {
+      "scamDetection": {
+        "name": "scamDetection",
+        "score": 100.0,
+        "weight": 0.15,
+        "weightedScore": 15.0,
+        "isApplicable": true,
+        "evidence": "Detected 5 distinct fraud resistance and investigative indicators."
+      },
+      "conversationContinuity": {
+        "name": "conversationContinuity",
+        "score": 40.0,
+        "weight": 0.15,
+        "weightedScore": 6.0,
+        "isApplicable": true,
+        "evidence": "Maintained dialog across 2 turns (4 messages)."
+      },
+      "personaConsistency": {
+        "name": "personaConsistency",
+        "score": 95.0,
+        "weight": 0.1,
+        "weightedScore": 9.5,
+        "isApplicable": true,
+        "evidence": "Assessed identity maintenance across conversation."
+      },
+      "intelligenceExtraction": {
+        "name": "intelligenceExtraction",
+        "score": 85.0,
+        "weight": 0.15,
+        "weightedScore": 12.75,
+        "isApplicable": true,
+        "evidence": "Evaluated 0 disclosed artifact categories. Attacker disclosed 0 synthetic ground-truth items. Overall extraction F1-score: 85.0%."
+      },
+      "contextRetention": {
+        "name": "contextRetention",
+        "score": 95.0,
+        "weight": 0.1,
+        "weightedScore": 9.5,
+        "isApplicable": true,
+        "evidence": "Evaluated retention score: 95.0/100."
+      },
+      "responseRelevance": {
+        "name": "responseRelevance",
+        "score": 95.2,
+        "weight": 0.1,
+        "weightedScore": 9.53,
+        "isApplicable": true,
+        "evidence": "Analyzed semantic relevance against prior attacker turns."
+      },
+      "hallucinationResistance": {
+        "name": "hallucinationResistance",
+        "score": 100.0,
+        "weight": 0.1,
+        "weightedScore": 10.0,
+        "isApplicable": true,
+        "evidence": "Identified 0 factual contradictions."
+      },
+      "conversationNaturalness": {
+        "name": "conversationNaturalness",
+        "score": 90.0,
+        "weight": 0.05,
+        "weightedScore": 4.5,
+        "isApplicable": true,
+        "evidence": "Judge rated phrasing naturalness: 90.0/100."
+      },
+      "apiReliability": {
+        "name": "apiReliability",
+        "score": 100.0,
+        "weight": 0.05,
+        "weightedScore": 5.0,
+        "isApplicable": true,
+        "evidence": "Simulation session ended with status: 'created'."
+      },
+      "completion": {
+        "name": "completion",
+        "score": 30.0,
+        "weight": 0.05,
+        "weightedScore": 1.5,
+        "isApplicable": true,
+        "evidence": "Final execution status 'created' at turn 2."
+      }
+    },
+    "intelligence_metrics": {
+      "disclosed_count": 0,
+      "extracted_count": 1,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1_score": 0.85
+    },
+    "intelligenceExtraction": {
+      "overallExtractionScore": 85.0,
+      "categories": {
+        "bankAccounts": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exactMatches": [],
+          "normalizedMatches": [],
+          "falsePositives": [],
+          "falseNegatives": [],
+          "disclosedCount": 0,
+          "extractedCount": 0
+        },
+        "upiIds": {
+          "precision": 0.0,
+          "recall": 1.0,
+          "f1": 0.0,
+          "exactMatches": [],
+          "normalizedMatches": [],
+          "falsePositives": [
+            "support@axis"
+          ],
+          "falseNegatives": [],
+          "disclosedCount": 0,
+          "extractedCount": 1
+        },
+        "phishingLinks": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exactMatches": [],
+          "normalizedMatches": [],
+          "falsePositives": [],
+          "falseNegatives": [],
+          "disclosedCount": 0,
+          "extractedCount": 0
+        },
+        "phoneNumbers": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exactMatches": [],
+          "normalizedMatches": [],
+          "falsePositives": [],
+          "falseNegatives": [],
+          "disclosedCount": 0,
+          "extractedCount": 0
+        }
+      },
+      "disclosedArtifacts": {
+        "bankAccounts": [],
+        "upiIds": [],
+        "phishingLinks": [],
+        "phoneNumbers": []
+      },
+      "honeypotExtracted": {
+        "bankAccounts": [],
+        "upiIds": [
+          "support@axis"
+        ],
+        "phishingLinks": [],
+        "phoneNumbers": []
+      },
+      "summaryNotes": "Evaluated 0 disclosed artifact categories. Attacker disclosed 0 synthetic ground-truth items. Overall extraction F1-score: 85.0%."
+    },
+    "llm_judge_review": {
+      "naturalness": 90,
+      "coherence": 95,
+      "personaConsistency": 95,
+      "repetitionScore": 10,
+      "contradictions": [],
+      "observations": [
+        "The honeypot effectively challenged the attacker's legitimacy by requesting an employee ID.",
+        "The response to the phishing attempt was realistic and assertive.",
+        "The honeypot maintained the persona of a suspicious customer throughout the interaction.",
+        "The conversation was concise and successfully terminated the attacker's engagement."
+      ],
+      "recommendations": [
+        "Consider adding a slightly more hesitant tone in the initial response to further draw out the attacker's social engineering tactics.",
+        "Include a simulated 'hold' period before responding to increase the perception of a real user checking information."
+      ],
+      "judgeModel": "gemini-3.1-flash-lite",
+      "promptVersion": "v3.0_security_judge"
+    },
+    "qualitativeJudge": {
+      "naturalness": 90,
+      "coherence": 95,
+      "personaConsistency": 95,
+      "repetitionScore": 10,
+      "contradictions": [],
+      "observations": [
+        "The honeypot effectively challenged the attacker's legitimacy by requesting an employee ID.",
+        "The response to the phishing attempt was realistic and assertive.",
+        "The honeypot maintained the persona of a suspicious customer throughout the interaction.",
+        "The conversation was concise and successfully terminated the attacker's engagement."
+      ],
+      "recommendations": [
+        "Consider adding a slightly more hesitant tone in the initial response to further draw out the attacker's social engineering tactics.",
+        "Include a simulated 'hold' period before responding to increase the perception of a real user checking information."
+      ],
+      "judgeModel": "gemini-3.1-flash-lite",
+      "promptVersion": "v3.0_security_judge"
+    },
+    "strengths": [
+      "High proactive scam detection and resistance behavior.",
+      "Effective extraction and probing of synthetic scenario artifacts."
+    ],
+    "weaknesses": [
+      "Premature conversation termination or low turn depth."
+    ],
+    "recommendations": [
+      "Consider adding a slightly more hesitant tone in the initial response to further draw out the attacker's social engineering tactics.",
+      "Include a simulated 'hold' period before responding to increase the perception of a real user checking information."
+    ],
+    "evaluatedAt": "2026-11-05T15:20:58Z",
+    "evaluated_at": "2026-11-05T15:20:58Z",
+    "version": "v3.0_redteam_eval"
+  },
+  "transcript": [
+    {
+      "turn_index": 1,
+      "sender": "scammer",
+      "text": "URGENT: Your Axis Bank account will be suspended within 24 hours due to pending KYC. Visit https://axis-kyc-update.portal-demo.in immediately or contact Ramesh at 1800-111-2233.",
+      "timestamp": 1000,
+      "metadata": {}
+    },
+    {
+      "turn_index": 1,
+      "sender": "user",
+      "text": "Wait, why does my account need KYC verification now? Is this really Axis Bank? What is your employee ID?",
+      "timestamp": 2200,
+      "metadata": {}
+    },
+    {
+      "turn_index": 2,
+      "sender": "scammer",
+      "text": "Sir, this is Senior Manager Ramesh (ID: AX-9921). Due to RBI regulatory directives, unverified accounts face freezing. Transfer 1 INR verification fee to upi support@axis-verify.okhdfc.",
+      "timestamp": 3500,
+      "metadata": {}
+    },
+    {
+      "turn_index": 2,
+      "sender": "user",
+      "text": "I am calling the official branch manager right now to verify AX-9921 and reporting support@axis-verify.okhdfc. Stop contacting me.",
+      "timestamp": 5100,
+      "metadata": {}
+    }
+  ]
+}
